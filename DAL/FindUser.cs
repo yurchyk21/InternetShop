@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class Class1
+    public  class FindUser
     {
+        public string Name { get; set; }
+        public string Phone { get; set; }
     }
 }
